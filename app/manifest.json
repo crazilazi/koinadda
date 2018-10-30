@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "koinadda",
+    "version": "2.3",
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "128": "icon/128.png",
+        "64": "icon/64.png",
+        "32": "icon/32.png",
+        "16": "icon/16.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "browser_action": {
+        "default_icon": "icon/32.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "koinadda.dev.rajeev@ranjan.com"
+        }
+    }
+}
